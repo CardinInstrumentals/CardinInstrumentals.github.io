@@ -114,8 +114,6 @@ header {
 	height:205px;
 }
 #logo {
-	left: 21.4%;
-	position: absolute;
 	display:block;
 	text-indent:-9999px;
 	background:url(../images/logo.png) 0 0 no-repeat;
