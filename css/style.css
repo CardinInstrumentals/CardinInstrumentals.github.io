@@ -79,6 +79,25 @@ h2 {
 	font-weight:400;
 	margin-left:-2px;
 }
+
+.latestrelease {
+	font-size: 40px;
+	color: #fff;
+	line-height:1.2em;
+	letter-spacing:-3px;
+	font-weight:400;
+	display: inline-block;
+	padding: 0 0;
+	text-decoration: underline;	
+	float: left;
+
+}
+.nextproject {
+	margin-left: 10px;
+	padding: 0 0 10px 0;
+	display: inline-block;
+}
+
 h2#welcom {
 	font-size:61px;
 	line-height:1.2em;
@@ -158,6 +177,14 @@ header {
 #content {
 	padding-bottom:18px;
 }
+.album2 {
+	display: inline-block;
+	padding-top: 1px;
+ }
+
+.album {
+	display: inline-block;
+}
 #page2 #content {
 	padding-bottom:50px;
 }
@@ -170,13 +197,17 @@ header {
 .pad_bot1 {
 	padding-bottom:15px;
 }
-
-}
 .pad_bot2 {
 	padding-bottom:30px;
 }
 .marg_right1 {
-	margin-right:40px
+	margin-right:40px;
+	display: inline-block; 
+}
+.marg_right2 {
+	margin-left:-7px;
+	display: inline-block;
+	float: left;
 }
 #page2 .pad_bot1 {
 	padding-bottom:40px;
@@ -236,6 +267,7 @@ header {
 #gallery1 {
 	height: 225px !important;
 	margin-left:-7px;
+	border: 1px solid white;
 }
 #gallery1 li {
 	overflow:inherit !important;
