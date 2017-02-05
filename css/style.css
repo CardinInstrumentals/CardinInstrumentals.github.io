@@ -180,7 +180,15 @@ header {
 .album2 {
 	display: inline-block;
 	margin-left: 70px;
+	transition: all 0.5s ease;	
  }
+.album2:hover {
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+     transform:scale(1.1);
+}
 
 .album {
 	display: inline-block;
