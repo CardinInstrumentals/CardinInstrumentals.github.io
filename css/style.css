@@ -183,16 +183,30 @@ header {
 	transition: all 0.5s ease;	
  }
 .album2:hover {
-    -webkit-transform:scale(1.05); /* Safari and Chrome */
-    -moz-transform:scale(1.05); /* Firefox */
-    -ms-transform:scale(1.05); /* IE 9 */
-    -o-transform:scale(1.05); /* Opera */
-     transform:scale(1.05);
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+     transform:scale(1.1);
 }
 
+.page4img1:hover {
+	border: 1px solid white;
+}
+.artistlist  {
+	color: white;
+	text-decoration: none;
+}
+
+.page3img1:hover {
+	border: 1px solid white;
+}
+
+}
 .album {
 	display: inline-block;
 }
+
 #page2 #content {
 	padding-bottom:50px;
 }
