@@ -26,7 +26,11 @@ body {
 	color:#7f7f7f;
 	line-height:25px;
 	min-width:960px;
+	font-size: 16px;
 }
+input[type="text"]
+  font-size: inherit;
+ }
 .ic, .ic a {
 	border:0;
 	float:right;
