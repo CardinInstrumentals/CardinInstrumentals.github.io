@@ -78,6 +78,7 @@ a:hover {
 }
 h1 {
 	padding:35px 0 0 43px;
+	font-size: 250%;
 }
 h2 {
 	font-size:40px;
@@ -136,6 +137,7 @@ h4 {
 }
 p {
 	padding-bottom:25px;
+	font-size: 120%;
 }
 /* ============================= header ====================== */
 header {
