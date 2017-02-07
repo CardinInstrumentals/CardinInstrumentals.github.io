@@ -196,10 +196,12 @@ header {
 	border: 1px solid white;
 }
 .artistlist  {
-	color: white;
+	color: red;
 	text-decoration: none;
 }
-
+.artistlist2 {
+	list-style-type: square;
+}
 .page3img1:hover {
 	border: 1px solid white;
 }
