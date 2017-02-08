@@ -179,6 +179,10 @@ header {
 #content {
 	padding-bottom:18px;
 }
+.projects {
+	width: 500px;
+	height: 10px;
+}
 .album2 {
 	display: inline-block;
 	margin-left: 70px;
@@ -223,7 +227,7 @@ header {
 	padding-bottom:40px;
 }
 .pad_left1 {
-	padding-left:60px
+	padding-left: 60px;
 }
 .pad_bot1 {
 	padding-bottom:15px;
@@ -353,7 +357,7 @@ header {
 	padding-bottom:40px;
 }
 .address {
-	width:97px;
+	width:300px;
 	float:left;
 }
 /* ============================= footer ====================== */
