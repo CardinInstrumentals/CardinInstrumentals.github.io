@@ -27,6 +27,9 @@ body {
 	line-height:25px;
 	min-width:960px;
  }
+ .page4img3:hover {
+ 	border: 1px solid white;
+ }
 .ic, .ic a {
 	border:0;
 	float:right;
