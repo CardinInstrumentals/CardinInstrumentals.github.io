@@ -205,13 +205,13 @@ header {
 #download_button1 {
 	position: relative;
 	bottom: 129px;
-	left: 170px;
+	left: 140px;
 	display: inline-block;
 }
 #download_button3 {
 	position: relative;
 	bottom: 129px;
-	left: 170px;
+	left: 165px;
 }
 .page4img1:hover {
 	border: 1px solid white;
