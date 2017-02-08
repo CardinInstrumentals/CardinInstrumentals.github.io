@@ -202,11 +202,16 @@ header {
     -o-transform:scale(1.1); /* Opera */
      transform:scale(1.1);
 }
-.download_button {
+#download_button1 {
 	position: relative;
 	bottom: 129px;
 	left: 170px;
 	display: inline-block;
+}
+#download_button3 {
+	position: relative;
+	bottom: 129px;
+	left: 170px;
 }
 .page4img1:hover {
 	border: 1px solid white;
