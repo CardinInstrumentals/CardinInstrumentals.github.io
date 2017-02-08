@@ -134,6 +134,10 @@ p {
 header {
 	height:205px;
 }
+.contactform {
+	position: relative;
+	left: 228px;
+}
 #logo {
 	display:block;
 	text-indent:-9999px;
