@@ -132,6 +132,9 @@ p {
 	padding-bottom:25px;
 	font-size: 120%;
 }
+h6 {
+	color: red;
+}
 /* ============================= header ====================== */
 header {
 	height:205px;
@@ -188,6 +191,24 @@ header {
 .projects {
 	width: 500px;
 	height: 10px;
+}
+#track2stream {
+	position: relative;
+	left: 320px;
+	bottom: 56px;
+}
+#track3stream {
+	position: relative;
+	bottom: 20px;
+}
+#track4stream {
+	position: relative;
+	bottom: 77px;
+	left: 320px;
+}
+#track5stream {
+	position: relative;
+	bottom: 40px;
 }
 .album2 {
 	display: inline-block;
