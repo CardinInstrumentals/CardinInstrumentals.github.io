@@ -195,7 +195,7 @@ header {
 #track2stream {
 	position: relative;
 	left: 320px;
-	bottom: 56px;
+	bottom: 60px;
 }
 #track3stream {
 	position: relative;
@@ -203,7 +203,7 @@ header {
 }
 #track4stream {
 	position: relative;
-	bottom: 77px;
+	bottom: 81px;
 	left: 320px;
 }
 #track5stream {
