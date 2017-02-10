@@ -425,14 +425,14 @@ footer a:hover {
 .phone {
 	width:215px;
 	float:left;
-	padding-left:70px;
+	padding-left:25px;
 }
 .phone span {
-	font-size:19px;
+	font-size:16px;
 	margin-top:-5px;
 	display:block;
 	line-height:1.2em;
-	letter-spacing:-2px;
+	letter-spacing: 1px;
 }
 #icons {
 	padding: 8px 0 0 0;
