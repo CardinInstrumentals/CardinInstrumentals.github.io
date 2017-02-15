@@ -444,6 +444,12 @@ footer a:hover {
 	padding-right: 25px;
 	padding-left: 25px;
 }
+
+.paypalbutton {
+	padding: 0 0 0 43px;
+	position: relative;
+	bottom: 15px;
+}
 /* Tooltips */
 .aToolTip {
 	background: url(../images/menu_active.gif) top repeat-x;
