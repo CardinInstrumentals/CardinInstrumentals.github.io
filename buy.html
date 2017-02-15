@@ -67,7 +67,7 @@
           </div>
         </div>
       </article>
-      <!--content end-->
+      < <!--content end-->
       <!--footer -->
       <footer>
         <div class="line1">
@@ -75,11 +75,9 @@
             <div class="icons">
               <h4>Connect With Us</h4>
               <ul id="icons">
-                <li><a href="#" class="normaltip"><img src="images/icon1.jpg" alt=""></a></li>
-                <li><a href="#" class="normaltip"><img src="images/icon2.jpg" alt=""></a></li>
-                <li><a href="#" class="normaltip"><img src="images/icon3.jpg" alt=""></a></li>
-                <li><a href="#" class="normaltip"><img src="images/icon4.jpg" alt=""></a></li>
-                <li><a href="#" class="normaltip"><img src="images/icon5.jpg" alt=""></a></li>
+                <li><a href="#" class="normaltip"><img id = "iconinsta" src="images/icon2.jpg" alt=""></a></li>
+                <li><a href="#" class="normaltip"><img id = "icontwitter" src="images/icon3.jpg" alt=""></a></li>
+                <li><a href="https://www.youtube.com/channel/UCev5c9bh98_00CpngiwmlGw" class="normaltip"><img id = "iconyout" src="images/icon5.jpg" alt="Youtube"></a></li>
               </ul>
               <!-- {%FOOTER_LINK} -->
             </div>
@@ -102,15 +100,30 @@
             </div>
             <div class="phone">
               <h4>E-mail:</h4>
-              <p>GMAIL:<span><br>CardinInstrumentals@gmail.com</span></p>
+              <p>GMAIL:<span><br>CardinInstrumentals@gmail.com</span></p><br>
             </div>
           </div>
-          Copyright &copy; <a href="#">Domain Name</a> All Rights Reserved | Design by <a target="_blank" href="">Karan Bal</a></div>
+          Copyright &copy; <a href="#">Domain Name</a> All Rights Reserved | Design by <a target="_blank">Karan Bal</a></div>
       </footer>
       <!--footer end-->
     </div>
   </div>
 </div>
-<script>Cufon.now();</script>
+<script>
+$(document).ready(function () {
+    //gallery
+    $("#gallery1").jCarouselLite({
+        btnNext: ".next",
+        btnPrev: ".prev",
+        mouseWheel: true,
+        vertical: true,
+        circular: true,
+        visible: 2,
+        speed: 600,
+        easing: 'easeOutCirc'
+    });
+    Cufon.now();
+})
+</script>
 </body>
 </html>

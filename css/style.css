@@ -432,12 +432,17 @@ footer a:hover {
 	letter-spacing: 1px;
 }
 #icons {
-	padding: 8px 0 0 0;
+	padding: 8px 0 0 10px;
 	overflow:hidden;
 }
 #icons li {
 	float:left;
 	padding-right:6px;
+}
+
+#icontwitter {
+	padding-right: 25px;
+	padding-left: 25px;
 }
 /* Tooltips */
 .aToolTip {
