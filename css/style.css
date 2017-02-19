@@ -221,7 +221,7 @@ header {
 }
 #download_button1 {
 	position: relative;
-	bottom: 129px;
+	bottom: 105px;
 	left: 140px;
 	display: inline-block;
 }
@@ -230,7 +230,15 @@ header {
 	bottom: 106px;
 	left: 165px;
 }
+#download_button5 {
+	position: relative;
+	left: 130px;
+	bottom: 106px;
+}
 .page4img1:hover {
+	border: 1px solid white;
+}
+.page4img5:hover {
 	border: 1px solid white;
 }
 .artistlist  {
@@ -243,7 +251,12 @@ header {
 .page3img1:hover {
 	border: 1px solid white;
 }
-
+#warning {
+	position: relative;
+	color: indianred;
+	left: 527px;
+	bottom: 80px;
+}
 }
 .album {
 	display: inline-block;
